@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    font-family: 'Raleway', sans-serif;
+    
+}
+header .wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 7rem;
+    align-items: center;
+
+}
+header nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+header nav a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+    padding: 10px 20px;
+    background-color: inherit;
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+header nav a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: #c3c3c3;
+}
+header figure{
+    width: 5rem;
+}
+header figure img{
+    max-width: 100%;
+}
+.home-main{
+    padding: 10vh 7rem 0 7rem;
+    text-align: center;
+}
+.home-main .title{
+    margin-bottom: 2rem;
+}
+.home-main .title .button{
+    display: none;
+}
+.hero-image{
+    width: 100%;
+}
+.hero-image>img{
+    max-width: 100%;
+}
+.ty-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    align-items: center;
+}
+.ty-text p{
+    max-width: 40%;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.ty-text figure{
+    max-width: 40%;
+}
+.ty-text figure img{
+    max-width: 100%;
+}
+.aboutUs-main{
+    padding: 10vh 7rem 0 7rem;
+    text-align: center;
+}
+.aboutUs-main>section>h2{
+    margin: 2rem 0;
+}
+.know-us-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.know-us-article{
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+
+}
+.know-us-article p{
+    max-width: 30%;
+}
+.know-us-article figure{
+    max-width: 30%;
+}
+.know-us-article figure img{
+    width: 100%;
+}
+.contact-main{
+    padding-top: 10vh;
+    text-align: center;
+}
+.contact-main h2{
+    margin: 2rem 0;
+}
+.contact-image{
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 50%;
+}
+.contact-image>img{
+    max-width: 100%;
+}
+.contact-text>p{
+    font-size: 1.1rem;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: auto;
+    padding: 1rem 0;
+}
+.contact-info>a{
+    color: black;
+}
+.main-schedule{
+    padding-top: 10vh;
+    text-align: center;
+}
+.main-schedule h2,h3{
+    margin: 1rem;
+}
+.main-schedule table{
+    margin: auto;
+    border: 1px solid black;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.main-benefits{
+    padding: 10vh 7rem 0 7rem;
+    text-align: center;
+}
+.benefits-article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.benefits-figure{
+    max-width: 30%;
+}
+.benefits-image{
+    max-width: 100%;
+}
+.benefits-info{
+    max-width: 30%;
+}
