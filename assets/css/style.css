@@ -177,6 +177,54 @@ th, td{
 .benefits-info{
     max-width: 30%;
 }
+.raffle-main{
+    padding: 10vh 7rem 0 7rem;
+    text-align: center;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.images-section{
+    max-width: 49%;
+}
+.images-section figure{
+    max-width: 100%;
+}
+.images-section figure img{
+    max-width: 100%;
+}
+form{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    width: 100%;
+}
+fieldset div{
+    text-align: start;
+}
+fieldset legend{
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+textarea{
+    resize: none;
+    width: 100%;
+}
+footer{
+    margin-top: 2rem;
+}
+footer iframe{
+    width: 100%;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     header{

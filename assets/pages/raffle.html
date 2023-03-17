@@ -30,78 +30,93 @@
         <section>
             <h2>Raffle</h2>
             <h3>Every month in this section you can participate in a raffle.</h3>
-            <div class="images-section">
-                <figure>
-                    <img src="../images/together.jpg" alt="boy running">
-                </figure>
-                <figure>
-                    <img src="../images/together-2.jpg" alt="boy running">
-                </figure>
+            <div class="form-wrapper">
+
+
+                <div class="images-section">
+                    <figure>
+                        <img src="../images/together.jpg" alt="boy running">
+                    </figure>
+                    <figure>
+                        <img src="../images/together-2.jpg" alt="boy running">
+                    </figure>
+                </div>
+
+                <form action="./show_data.html">
+                    <fieldset>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="name">
+                        <label for="surname">Last Name</label>
+                        <input type="text" id="surname" name="surname">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="gender-select">Choose your Gender</label>
+                        <select name="gender" id="gender-select">
+                            <option value="">--Please choose an option--</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="not_say">I prefer not to say</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="country-select">Select your country</label>
+                        <select name="country" id="country-select">
+                            <option value="">--Please choose an option--</option>
+                            <option value="AF">Afghanistan</option>
+                            <option value="AX">Åland Islands</option>
+                            <option value="AL">Albania</option>
+                            <option value="DZ">Algeria</option>
+                            <option value="AS">American Samoa</option>
+                            <option value="AD">Andorra</option>
+                            <option value="AO">Angola</option>
+                            <option value="AI">Anguilla</option>
+                            <option value="AQ">Antarctica</option>
+                            <option value="AG">Antigua and Barbuda</option>
+                            <option value="AR">Argentina</option>
+                            <option value="AM">Armenia</option>
+                            <option value="AW">Aruba</option>
+                            <option value="AU">Australia</option>
+                            <option value="AT">Austria</option>
+                            <option value="AZ">Azerbaijan</option>
+                            <option value="BS">Bahamas</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Choose your payment method</legend>
+                        <div>
+                            <div>
+                                <label for="cash">Cash</label>
+                                <input type="radio" name="payment" id="cash" value="cash" checked>
+                            </div>
+                            <div>
+                                <label for="credit">Credit Card</label>
+                                <input type="radio" name="payment" id="credit" value="credit">
+
+                            </div>
+
+                            <div> <label for="debit">Debit Card</label>
+                                <input type="radio" name="payment" id="debit" value="debit">
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Services</legend>
+                        <textarea name="services" id="services" cols="30" rows="10"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <input type="checkbox" name="terms" id="terms" value="accept-terms">
+                            <label for="terms">I accept the terms and conditions</label>
+                        </div>
+
+                    </fieldset>
+                    <input type="submit" value="enviar">
+                </form>
             </div>
-
-            <form action="./show_data.html">
-                <fieldset>
-                    <label for="name">First Name</label>
-                    <input type="text" id="name" name="name">
-                    <label for="surname">Last Name</label>
-                    <input type="text" id="surname" name="surname">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="gender-select">Choose your Gender</label>
-                    <select name="gender" id="gender-select">
-                        <option value="">--Please choose an option--</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="not_say">I prefer not to say</option>
-                    </select>
-                </fieldset>
-
-                <fieldset>
-                    <label for="country-select">Select your country</label>
-                    <select name="country" id="country-select">
-                        <option value="">--Please choose an option--</option>
-                        <option value="AF">Afghanistan</option>
-                        <option value="AX">Åland Islands</option>
-                        <option value="AL">Albania</option>
-                        <option value="DZ">Algeria</option>
-                        <option value="AS">American Samoa</option>
-                        <option value="AD">Andorra</option>
-                        <option value="AO">Angola</option>
-                        <option value="AI">Anguilla</option>
-                        <option value="AQ">Antarctica</option>
-                        <option value="AG">Antigua and Barbuda</option>
-                        <option value="AR">Argentina</option>
-                        <option value="AM">Armenia</option>
-                        <option value="AW">Aruba</option>
-                        <option value="AU">Australia</option>
-                        <option value="AT">Austria</option>
-                        <option value="AZ">Azerbaijan</option>
-                        <option value="BS">Bahamas</option>
-                    </select>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Choose your payment method</legend>
-                    <label for="cash">Cash</label>
-                    <input type="radio" name="payment" id="cash" value="cash" checked>
-
-                    <label for="credit">Credit Card</label>
-                    <input type="radio" name="payment" id="credit" value="credit">
-
-                    <label for="debit">Debit Card</label>
-                    <input type="radio" name="payment" id="debit" value="debit">
-                </fieldset>
-                <fieldset>
-                    <legend>Services</legend>
-                    <textarea name="services" id="services" cols="30" rows="10"></textarea>
-                </fieldset>
-                <fieldset>
-
-                    <input type="checkbox" name="terms" id="terms" value="accept-terms">
-                    <label for="terms">I accept the terms and conditions</label>
-                </fieldset>
-                <input type="submit" value="enviar">
-            </form>
         </section>
     </main>
     <footer>
