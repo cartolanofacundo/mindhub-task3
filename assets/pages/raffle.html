@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,107 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    <nav>
-        <a href="../../index.html">Home</a>
-        <a href="./aboutUs.html">About us</a>
-        <a href="./contact.html">Contact</a>
-        <a href="./schedule.html">Schedule</a>
-        <a href="./benefits.html">Benefits</a>
-        <a href="#">Raffle</a>
-    </nav>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <a href="../../index.html">Home</a>
+                <a href="./aboutUs.html">About us</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./schedule.html">Schedule</a>
+                <a href="./benefits.html">Benefits</a>
+                <a href="#">Raffle</a>
+            </nav>
+            <figure>
+                <img src="../images/logo.png" alt="logo">
+            </figure>
+        </div>
+    </header>
+    <main class="raffle-main">
+        <section>
+            <h2>Raffle</h2>
+            <h3>Every month in this section you can participate in a raffle.</h3>
+            <div class="images-section">
+                <figure>
+                    <img src="../images/together.jpg" alt="boy running">
+                </figure>
+                <figure>
+                    <img src="../images/together-2.jpg" alt="boy running">
+                </figure>
+            </div>
+
+            <form action="./show_data.html">
+                <fieldset>
+                    <label for="name">First Name</label>
+                    <input type="text" id="name" name="name">
+                    <label for="surname">Last Name</label>
+                    <input type="text" id="surname" name="surname">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="gender-select">Choose your Gender</label>
+                    <select name="gender" id="gender-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="not_say">I prefer not to say</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <label for="country-select">Select your country</label>
+                    <select name="country" id="country-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="AF">Afghanistan</option>
+                        <option value="AX">Åland Islands</option>
+                        <option value="AL">Albania</option>
+                        <option value="DZ">Algeria</option>
+                        <option value="AS">American Samoa</option>
+                        <option value="AD">Andorra</option>
+                        <option value="AO">Angola</option>
+                        <option value="AI">Anguilla</option>
+                        <option value="AQ">Antarctica</option>
+                        <option value="AG">Antigua and Barbuda</option>
+                        <option value="AR">Argentina</option>
+                        <option value="AM">Armenia</option>
+                        <option value="AW">Aruba</option>
+                        <option value="AU">Australia</option>
+                        <option value="AT">Austria</option>
+                        <option value="AZ">Azerbaijan</option>
+                        <option value="BS">Bahamas</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Choose your payment method</legend>
+                    <label for="cash">Cash</label>
+                    <input type="radio" name="payment" id="cash" value="cash" checked>
+
+                    <label for="credit">Credit Card</label>
+                    <input type="radio" name="payment" id="credit" value="credit">
+
+                    <label for="debit">Debit Card</label>
+                    <input type="radio" name="payment" id="debit" value="debit">
+                </fieldset>
+                <fieldset>
+                    <legend>Services</legend>
+                    <textarea name="services" id="services" cols="30" rows="10"></textarea>
+                </fieldset>
+                <fieldset>
+
+                    <input type="checkbox" name="terms" id="terms" value="accept-terms">
+                    <label for="terms">I accept the terms and conditions</label>
+                </fieldset>
+                <input type="submit" value="enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105360.65829167202!2d-58.93534077043827!3d-34.38811209985214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9d8accc24e55%3A0xbb44a190547b2472!2sSportClub%20Pueblo%20Caama%C3%B1o!5e0!3m2!1ses!2sar!4v1679052511055!5m2!1ses!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
 </body>
+
 </html>
