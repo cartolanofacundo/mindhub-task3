@@ -210,6 +210,9 @@ fieldset{
 fieldset div{
     text-align: start;
 }
+fieldset input[type="text"], input[type="email"], select {
+    width: 100%;
+}
 fieldset legend{
     text-align: start;
     font-size: 1.2rem;
@@ -346,5 +349,220 @@ footer iframe{
         margin: 1rem 0;
         max-width: 90%;
     }
+    .raffle-main{
+        padding: 10vh 0.1rem 0 0.1rem;
+        text-align: center;
+    }
+    .form-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .images-section{
+        max-width: 100%;
+    }
+    .images-section figure{
+        max-width: 100%;
+    }
+    .images-section figure img{
+        max-width: 100%;
+    }
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    fieldset{
+        margin: 1rem 0;
+        padding: 0.2rem;
+    }
+    fieldset input[type="text"], input[type="email"], select {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    fieldset legend{
+        text-align: start;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    textarea{
+        resize: none;
+        width: 100%;
+    }
+    footer{
+        margin-top: 2rem;
+    }
+    footer iframe{
+        width: 100%;
+    }
 }
     
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header{
+        height: 10vh;
+    }
+    header .wrapper{
+        padding: 1rem 0.1rem 0 0.1rem;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center; 
+    }
+    header nav {
+        margin-top: 0.7rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    header nav a{
+        text-decoration: none;
+        color: rgba(0,0,0,0.7);
+        padding: 0.1rem;
+        border-radius: 20px;
+        transition: all 0.5s ease-in;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    .home-main{
+        padding: 10vh 0.3rem 0 0.3rem;
+        text-align: center;
+    }
+    .ty-text{
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ty-text p{
+        padding: 1rem 0;
+        max-width: 100%;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .ty-text figure{
+        max-width: 100%;
+    }
+    .aboutUs-main{
+        padding: 10vh 0.1rem 0 0.1rem;
+    }
+    .aboutUs-main>section>h2{
+        margin: 1rem 0;
+    }
+    .know-us-article{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 1rem 0;
+    
+    }
+    .know-us-article p{
+        max-width: 100%;
+    }
+    .know-us-article figure{
+        max-width: 100%;
+    }
+    .know-us-article figure img{
+        width: 100%;
+    }
+    .contact-main{
+        padding: 10vh 0.1rem;
+    }
+    .contact-image{
+        margin: auto;
+        max-width: 100%;
+    }
+    .contact-image>img{
+        max-width: 100%;
+    }
+    .contact-text>p{
+        margin: 1rem 0;
+        font-size: 1.1rem;
+    }
+    .contact-info{
+        flex-direction: column;
+        max-width: 100%;
+        margin: auto;
+        padding: 1rem 0;
+    }
+    .contact-info>a{
+        margin: 1rem;
+    }
+    .main-schedule h2,h3{
+        margin: 1rem;
+    }
+    .main-schedule table{
+        max-width: 100%;
+    }
+    th, td{
+        padding: 1rem;
+    }
+    .main-benefits{
+        padding: 10vh 0.1rem 0 0.1rem;
+        text-align: center;
+    }
+    .benefits-article{
+        display: flex;
+        flex-direction: column;
+    }
+    .benefits-figure{
+        max-width: 100%;
+    }
+    .benefits-image{
+        max-width: 100%;
+    }
+    .benefits-info{
+        margin: 1rem 0;
+        max-width: 90%;
+    }
+    .raffle-main{
+        padding: 10vh 0.1rem 0 0.1rem;
+        text-align: center;
+    }
+    .form-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .images-section{
+        max-width: 100%;
+    }
+    .images-section figure{
+        max-width: 100%;
+    }
+    .images-section figure img{
+        max-width: 100%;
+    }
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    fieldset{
+        margin: 1rem 0;
+        padding: 0.2rem;
+    }
+    fieldset input[type="text"], input[type="email"], select {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    fieldset legend{
+        text-align: start;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    textarea{
+        resize: none;
+        width: 100%;
+    }
+    footer{
+        margin-top: 2rem;
+    }
+    footer iframe{
+        width: 100%;
+    }
+}
