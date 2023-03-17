@@ -280,6 +280,23 @@ th, td{
     th, td{
         padding: 0;
     }
-
+    .main-benefits{
+        padding: 10vh 0.1rem 0 0.1rem;
+        text-align: center;
+    }
+    .benefits-article{
+        display: flex;
+        flex-direction: column;
+    }
+    .benefits-figure{
+        max-width: 100%;
+    }
+    .benefits-image{
+        max-width: 100%;
+    }
+    .benefits-info{
+        margin: 1rem 0;
+        max-width: 90%;
+    }
 }
     
