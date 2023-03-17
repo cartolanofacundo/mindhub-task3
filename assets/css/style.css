@@ -177,3 +177,53 @@ th, td{
 .benefits-info{
     max-width: 30%;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    header{
+        height: 10vh;
+    }
+    header .wrapper{
+        padding: 1rem 0.1rem 0 0.1rem;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center; 
+    }
+    header nav {
+        margin-top: 0.7rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    header nav a{
+        text-decoration: none;
+        color: rgba(0,0,0,0.7);
+        padding: 0.1rem;
+        border-radius: 20px;
+        transition: all 0.5s ease-in;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .home-main{
+        padding: 10vh 0.3rem 0 0.3rem;
+        text-align: center;
+    }
+    .ty-text{
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ty-text p{
+        padding: 1rem 0;
+        max-width: 100%;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .ty-text figure{
+        max-width: 100%;
+    }
+}
+    
